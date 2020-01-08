@@ -1,0 +1,100 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffcdd2;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.Footer {
+  position: absolute;
+  width: 100%;
+  bottom: 1;
+  min-height: 30vh;
+  background-color: #ef5350;
+}
+
+.FooterItems {
+  flex-direction: row;
+  text-align: center;
+  color: #d5bdc2;
+}
+
+.NavBar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #ef9a9a;
+  position: relative;
+  box-shadow: 0px 10px 10px #e57373;
+}
+
+.NavItems {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: 5%;
+}
+
+.homeContainer {
+  margin: 5%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.homeTitle {
+  margin-top: 2%;
+  margin-bottom: -10px;
+  font-size: 48px;
+}
+
+.homePic {
+  height: auto;
+  max-width: 50%;
+  margin-bottom: -1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+.homePicDesc {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.galleryTitle {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 45px;
+}
+
+.galleryItems {
+  width: 50%;
+  height: 50%;
+}
