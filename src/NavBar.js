@@ -5,7 +5,7 @@ import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="NavBar">
-      <Link to="/home" className="NavItems">
+      <Link to="/" className="NavItems">
         Home
       </Link>
       <Link to="/about" className="NavItems">
