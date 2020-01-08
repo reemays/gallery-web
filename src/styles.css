@@ -42,8 +42,8 @@ a:hover {
 .FooterItems {
   text-align: center;
   font-size: 12px;
-  margin-top: 3%;
   margin-left: 2%;
+  margin-top: 4%;
   color: #d5bdc2;
 }
 
@@ -51,13 +51,9 @@ a:hover {
   text-align: center;
   font-size: 12px;
   padding: 10px;
-  margin-top: 2%;
-  margin-right: 10px;
+  margin-top: 3%;
+  margin-right: 5px;
   padding: 0px 30px 0px 30px;
-  margin-top: 60px;
-  position: relative;
-  padding: 0px 30px 0px 30px;
-  margin-top: 120px;
   color: #d5bdc2;
 }
 
