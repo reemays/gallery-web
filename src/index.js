@@ -14,10 +14,12 @@ class App extends React.Component {
       <Router>
         <div>
           <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/gallery" component={Gallery} />
-          <Route component={NoMatchPage} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/gallery" component={Gallery} />
+            <Route component={NoMatchPage} />
+          </Switch>
           <Footer />
         </div>
       </Router>
