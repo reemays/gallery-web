@@ -13,17 +13,20 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <Switch>
-            <Navbar />
-            <Route exact path="/home" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/gallery" component={Gallery} />
-            <Footer />
-          </Switch>
+          <Navbar />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/gallery" component={Gallery} />
+          <Route component={NoMatchPage} />
+          <Footer />
         </div>
       </Router>
     );
   }
 }
+
+const NoMatchPage = () => {
+  return <h3 className="homeTitle">404 - Not found</h3>;
+};
 
 ReactDOM.render(<App />, document.getElementById("root"));
