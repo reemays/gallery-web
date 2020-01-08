@@ -17,11 +17,16 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/gallery" component={Gallery} />
+          <Route component={NoMatchPage} />
           <Footer />
         </div>
       </Router>
     );
   }
 }
+
+const NoMatchPage = () => {
+  return <h3 className="homeTitle">404 - Not found</h3>;
+};
 
 ReactDOM.render(<App />, document.getElementById("root"));
