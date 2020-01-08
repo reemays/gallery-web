@@ -35,15 +35,15 @@ a:hover {
   align-items: center;
   width: 100%;
   bottom: 1;
-  min-height: 30vh;
+  min-height: 50vh;
   background-color: #ef5350;
 }
 
 .FooterItems {
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
   margin-left: 2%;
-  margin-top: 4%;
+  margin-top: -10vh;
   color: #d5bdc2;
 }
 
@@ -52,8 +52,8 @@ a:hover {
   font-size: 12px;
   padding: 10px;
   margin-top: 3%;
-  margin-right: 5px;
-  padding: 0px 30px 0px 30px;
+  margin-right: 10px;
+  padding: 20px 20px 20px 20px;
   color: #d5bdc2;
 }
 
@@ -142,16 +142,17 @@ a:hover {
   .FooterItems {
     text-align: center;
     font-size: 12px;
-    padding: 0px 40px 0px 40px;
-    margin-top: 2%;
+    margin-top: -10vh;
+    padding: 0px 30px 0px 30px;
     color: #d5bdc2;
   }
 
   .FooterIcons {
     text-align: center;
     font-size: 12px;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 10px;
+    padding: 10px 10px 10px 10px;
     color: #d5bdc2;
   }
 }
